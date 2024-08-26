@@ -8,7 +8,7 @@ import seven from "./assets/s7.png";
 import eight from "./assets/s8.png";
 const Sidebar = () => {
   return (
-    <div className="row-end-3 row-start-1 flex justify-center items-stretch py-5 ">
+    <>
       <div className=" bg-black w-[100px] rounded-full flex flex-col items-center justify-between py-5 ">
         <div className="">
           <img className="mb-20" src={one} />
@@ -25,7 +25,7 @@ const Sidebar = () => {
           <img src={eight} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

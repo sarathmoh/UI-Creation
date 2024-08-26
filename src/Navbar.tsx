@@ -4,7 +4,7 @@ import Notification from "./assets/bell.png";
 import Avatar from "./assets/Avatar.png";
 const Navbar = () => {
   return (
-    <div className="col-start-2 col-end-13 row-start-1 row-end-2 pt-5 px-3">
+   
       <div className="flex justify-between bg-gray-50  h-18 rounded-full ">
         <div className="mt-5 mx-10 ">
           <h1 className=" text-2xl font-bold ">Overview</h1>
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
