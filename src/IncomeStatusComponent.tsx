@@ -14,12 +14,12 @@ const IncomeStatusComponent = ({ icon, amount, percentage,id }: Income) => {
     <div  key={id} className="flex justify-between p-3">
       <div className="flex flex-col justify-between space-y-4 p-2">
         <img className="w-12" src={icons[icon]} alt="Income Icon" />
-        <h1 className="font-bold text-3xl">Income</h1>
-        <div className="text-6xl">${amount}</div>
+        <h1 className="font-bold text-3xl sm:max-lg:text-xl">Income</h1>
+        <div className="text-6xl sm:max-lg:text-2xl">${amount}</div>
       </div>
       <div className="">
         <CircularProgressbar
-          className="w-28 "
+          className="w-28 sm:max-lg:w-15 "
           value={percentage}
           text={`${percentage}%`}
           strokeWidth={15}

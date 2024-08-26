@@ -26,7 +26,7 @@ const Content = () => {
   if (!jsonData) return <div>Loading...</div>;
 
   return (
-    <div className="grid grid-cols-12 grid-rows-[1.5fr_1.3fr_2.3fr] h-lvh gap-5 max-sm:h-auto max-sm:grid-rows-1 sm:max-lg:grid-rows-4">
+    <div className="grid grid-cols-12 grid-rows-[1.5fr_1.3fr_2.3fr] h-lvh gap-5 max-sm:h-auto max-sm:grid-rows-1 sm:max-lg:grid-rows-4 sm:max-lg:gap-5">
       <div className="col-start-1 col-end-13 row-start-1 row-end-2 grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-sm:grid-rows-3">
         <div className="h-[100%]">
           <Income totalBalance={jsonData?.totalBalance} />
