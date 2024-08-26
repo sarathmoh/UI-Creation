@@ -2,11 +2,13 @@ import Search from "./assets/searching.png";
 import Bolt from "./assets/bolt.png";
 import Notification from "./assets/bell.png";
 import Avatar from "./assets/Avatar.png";
-const Navbar = () => {
+import LoadMore from "./assets/menu.png"
+const Navbar = ({clickHandler}) => {
   return (
    
       <div className="flex justify-between bg-gray-50  h-18 rounded-full ">
-        <div className="mt-5 mx-10 ">
+        <div className=" mx-10 flex items-center gap-2">
+          <img className="w-7 h-5 lg:2xl:hidden" src={LoadMore} onClick={clickHandler}/>
           <h1 className=" text-2xl font-bold ">Overview</h1>
         </div>
         <div className="flex m-3">
