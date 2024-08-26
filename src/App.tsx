@@ -8,11 +8,11 @@ function App() {
         <Navbar />
       </div>
 
-      <div className="row-end-3 row-start-1 flex justify-center items-stretch py-5  max-sm:hidden">
+      <div className="row-end-3 row-start-1 flex justify-center items-stretch py-5  max-sm:hidden max-lg:hidden ">
         <Sidebar />
       </div>
 
-      <div className=" col-start-2 col-end-13 row-start-2 row-end-3 pr-5 pb-5  max-sm:col-start-1 max-sm:px-2  max-sm:grid">
+      <div className=" col-start-2 col-end-13 row-start-2 row-end-3 pr-5 pb-5  max-sm:col-start-1 max-sm:px-2  max-sm:grid max-lg:col-start-1 max-lg:p-4">
         <Content />
       </div>
     </div>
