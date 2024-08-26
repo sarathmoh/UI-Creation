@@ -44,6 +44,7 @@ export interface YourCards {
 export interface QuickTransfers {
   id: string;
   name: string;
+  color:"one"|"two"|"three"|"four"
 }
 
 export interface DashboardItem {

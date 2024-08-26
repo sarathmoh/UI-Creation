@@ -6,7 +6,14 @@ import { QuickTransfers } from "./Interface";
 interface OuickTransferProps {
   quick: QuickTransfers[];
 }
+
 const QuickTransfer: React.FC<OuickTransferProps> = ({ quick }) => {
+  const colors = {
+    one: "#FFEBDD",
+    two: "#DAE1FE",
+    three: "#FEFACD",
+    four: "#cca3ff",
+  };
   return (
     <div className=" flex flex-col justify-between bg-[#ffffff] w-[100%] p-5 rounded-2xl">
       <div className="bg-white flex justify-between mb-3  ">
@@ -15,7 +22,12 @@ const QuickTransfer: React.FC<OuickTransferProps> = ({ quick }) => {
       </div>
       <div className="bg-white flex justify-around mb-3">
         {quick.map((user) => (
-          <div className="bg-[#FFEBDD] w-20 h-32 rounded-full text-center">
+          <div
+            key={user?.id}
+            className={`bg-[${
+              colors[user?.color]
+            }] w-20 h-32 rounded-full text-center`}
+          >
             <img
               className="h-16 w-16 ml-2 mt-2 "
               src={"assets/images/" + user.name + ".png"}

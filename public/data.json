@@ -74,14 +74,14 @@
       "yourCards": {
         "isPremium": true,
         "cards": [
-          { 
-            "id":1,
+          {
+            "id": 1,
             "balance": 2981,
-            "lastDigits": "1777", 
+            "lastDigits": "1777",
             "expiry": "20/26"
           },
           {
-            "id":2,
+            "id": 2,
             "balance": 520,
             "lastDigits": "1888",
             "expiry": "18/28"
@@ -91,19 +91,23 @@
       "quickTransfer": [
         {
           "id": "1",
-          "name": "Victoria"
+          "name": "Victoria",
+          "color": "one"
         },
         {
           "id": "2",
-          "name": "David"
+          "name": "David",
+          "color": "two"
         },
         {
           "id": "3",
-          "name": "Mike"
+          "name": "Mike",
+          "color": "three"
         },
         {
           "id": "4",
-          "name": "Stephan"
+          "name": "Stephan",
+          "color": "four"
         }
       ]
     }
