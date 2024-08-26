@@ -1,0 +1,111 @@
+{
+  "dashboard": [
+    {
+      "totalBalance": { "amount": 20670, "currency": "USD" },
+      "income": [
+        {
+          "id": "1",
+          "amount": 1400,
+          "icon": "one",
+          "percentage": 75
+        },
+        {
+          "id": "2",
+          "amount": 2080,
+          "icon": "two",
+          "percentage": 50
+        }
+      ],
+      "currenciesMarket": [
+        {
+          "id": "1",
+          "currency": "USD",
+          "value": 0.73,
+          "currentValue": 105.27,
+          "percentage": 14.4,
+          "positive": true,
+          "flag": "one"
+        },
+        {
+          "id": "2",
+          "currency": "EUR",
+          "value": 0.0086,
+          "currentValue": 105.27,
+          "percentage": 0.67,
+          "positive": false,
+          "flag": "two"
+        }
+      ],
+      "currencyList": [
+        {
+          "id": "1",
+          "name": "Apple TV+",
+          "amount": 110,
+          "date": "14 April, 2024",
+          "status": "Paid",
+          "logo": "one"
+        },
+        {
+          "id": "2",
+          "name": "Dribbble",
+          "amount": 18,
+          "date": "16 April, 2024",
+          "status": "OverDue",
+          "logo": "two"
+        },
+        {
+          "id": "3",
+          "name": "Upwork",
+          "amount": 114,
+          "date": "26 April, 2024",
+          "status": "Paid",
+          "logo": "three"
+        },
+        {
+          "id": "4",
+          "name": "Etsy",
+          "amount": 28,
+          "date": "30 April, 2024",
+          "status": "Pending",
+          "logo": "four"
+        }
+      ],
+
+      "yourCards": {
+        "isPremium": true,
+        "cards": [
+          { 
+            "id":1,
+            "balance": 2981,
+            "lastDigits": "1777", 
+            "expiry": "20/26"
+          },
+          {
+            "id":2,
+            "balance": 520,
+            "lastDigits": "1888",
+            "expiry": "18/28"
+          }
+        ]
+      },
+      "quickTransfer": [
+        {
+          "id": "1",
+          "name": "Victoria"
+        },
+        {
+          "id": "2",
+          "name": "David"
+        },
+        {
+          "id": "3",
+          "name": "Mike"
+        },
+        {
+          "id": "4",
+          "name": "Stephan"
+        }
+      ]
+    }
+  ]
+}
